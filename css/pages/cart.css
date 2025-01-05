@@ -1,0 +1,183 @@
+.kart-sayfasi{
+   margin: 29px 0; 
+}
+.kart-sayfasi-sarmal{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*! cart form start  */
+.kart-sayfasi .kart-form{
+flex-basis: 60%;
+}
+
+/*? progress start  */
+.kart-sayfasi .free-progress-bar{
+    border: 1px solid #2e4d8a;
+    padding: 19px;
+    width: 100%;
+}
+.kart-sayfasi .progress-bar-baslik{
+   font-size: 13px;
+}
+.kart-sayfasi .progress-bar-baslik strong{
+    color: crimson;
+ }
+ .kart-sayfasi .progress-bar{
+    width: 100%;
+    height: 5px;
+    background-color: whitesmoke;
+    
+    margin-top: 7px;
+    position: relative;
+    z-index: -1;
+ }
+ .kart-sayfasi .progress-bar .progress{
+ background-color: #2e4d8a;
+ width: 30%;
+ height: 7px;
+ display: inline-block;
+ position: absolute;
+ z-index: 1;
+ border-radius: 10px;
+ }
+ /*? progress end  */
+ /*? table start  */
+.kart-form table img{
+    width: 60px;
+}
+.kart-form table > :not(caption) > * > * {
+    padding: 8px 0;
+} 
+.kart-form table{
+border-collapse: collapse;
+width: 100%;
+margin-top: 29px;
+font-size: 15px;
+}
+.kart-form table thead th{
+    text-align: start;
+    font-size: 13px;
+    font-weight: 600;
+}
+.kart-form table .urun-miktar,
+.kart-form table .urun-toplam{
+    text-align: center;
+    
+}
+.kart-form table tbody{
+border-top: 1px solid whitesmoke ;
+
+}
+.kart-form table tbody .kart-oge{
+    border-top: 1px solid whitesmoke ;
+    
+    }
+    .kart-form table tbody .kart-resim{
+        position: relative;
+        }
+        .kart-form table tbody i{
+            position: absolute;
+            top: 2px;
+            left: -4px;
+            width: 15px;
+            height: 15px;
+            display: grid;
+            place-items: center;
+            font-size: 14px;
+            cursor: pointer;
+            }
+ /*? table end  */
+
+ /*? actions start  */
+.actions-sarmal{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 14px;
+}
+.actions-sarmal .kupon{
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+.actions-sarmal .kupon button{
+  background-color: black;
+  color: white;
+}
+.actions-sarmal .kupon input{
+  height: 100%;
+  }
+  .actions-sarmal .update-kart button{
+    background-color: crimson;
+    color: white;
+    border: white;
+    }
+ /*? actions end  */
+  /*? colletarels start  */
+.kart-teminatlar{
+    flex: 0 0 300px;
+    border: 1px solid white;
+    padding: 30px;
+}
+.kart-teminatlar table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.kart-teminatlar h2{
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid black;
+  }
+  .kart-teminatlar table * {
+    font-size: 14px;
+font-weight: 400;
+  }
+  .kart-teminatlar table tr:not(:last-child) {
+  border-bottom: 1px solid black;
+  }
+  .kart-teminatlar table th{
+   text-align: start;
+   padding: 19px 0 9px 0;
+    }
+    .kart-teminatlar table td{
+        text-align: end;
+        padding: 19px 0 9px 0;
+         }
+  .kart-teminatlar table ul{
+display: flex;
+flex-direction: column;
+row-gap: 9px;
+       }
+ .kart-teminatlar table ul label{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        column-gap: 4px;
+               }
+    .kart-teminatlar table ul a{
+        color: crimson;
+        font-weight: 500;
+  }
+  .kart-teminatlar table strong{
+ font-size: 18px;
+ font-weight: 700;
+    }
+    .kart-teminatlar .odeme button{
+        margin-top: 19px;
+        background-color: black;
+        color: white;
+        border-color: white;
+           }
+  /*? colletarels end  */
+/*! cart form end  */
+/* responsive */
+@media (max-width: 992px){
+    .kart-sayfasi-sarmal{
+        flex-direction: column;
+        row-gap: 29px;
+    }
+}

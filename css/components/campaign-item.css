@@ -1,0 +1,43 @@
+.kampanya .kampanya-oge{
+   
+    padding: 70px 35px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+color: blue;
+}
+
+.kampanya .kampanya-oge .kampanya-baslik{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 29px;
+
+}
+.kampanya .kampanya-oge .kampanya-tanim{
+   margin: 39px;
+    font-size: 15px;
+}
+.kampanya-sarmal:nth-child(1) .kampanya-oge:nth-child(1){
+    
+    background-image: url(../../images/campaigns/banner1.png);
+}
+.kampanya-sarmal:nth-child(1) .kampanya-oge:nth-child(2){
+    
+    background-image: url(../../images/campaigns/banner2.png);
+}
+.kampanya-sarmal:nth-child(2) .kampanya-oge:nth-child(1){
+    
+    background-image: url(../../images/campaigns/banner3.png);
+    flex: 5;
+}
+.kampanya-sarmal:nth-child(2) .kampanya-oge:nth-child(2){
+    
+    background-image: url(../../images/campaigns/banner4.png);
+    flex: 3;
+}
+@media (max-width: 768px){
+    .kampanya  .kampanya-oge{
+        width: 100%;
+        flex: unset !important;
+    }
+}

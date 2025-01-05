@@ -1,0 +1,267 @@
+/* ! header baslangici */
+header{
+    border-bottom: 2px solid whitesmoke;
+    position: relative;
+  
+}
+
+.bildirim{
+    background-color: #2e4d8a;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 13px;
+    color:whitesmoke;
+
+}
+.bildirim a{
+    color: whitesmoke;
+    font-weight: 750;
+    
+    align-items: center;
+
+
+}
+
+.baslik-satiri{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.baslik-sarmali{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.baslik-mobil{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+.baslik-ortasi .bi-x-circle-fill{
+    display: none;
+}
+
+
+
+.baslik-ortasi .navigation .menu-listesi{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.baslik-ortasi  .menu-listesi .menu-liste-oge{
+display: flex;
+align-items: center;
+position: relative;
+height: 150px;
+
+
+}
+
+.baslik-ortasi  .menu-listesi .menu-link {
+    font-size: 15px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    position: relative;
+}
+
+
+
+.baslik-ortasi  .menu-listesi .menu-link::after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #2e4d8a;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translate(-50%);
+    transition: .3s ease width;
+}
+
+
+.baslik-ortasi  .menu-listesi .menu-liste-oge:hover .menu-link::after {
+   width: 100%;
+}
+
+
+
+
+.baslik-ortasi .menu-listesi i{
+    font-size: 11px;
+}
+.baslik-ortasi .baslik-sag-link i {
+    font-size: 13px;
+}
+.baslik-sag .sag-taraf-link{
+display: flex;
+align-items: center;
+column-gap: 17px;
+}
+.baslik-sag .bi-person-raised-hand{
+    font-size: 24px;
+
+}
+.baslik-sag .arama-dugmesi{
+    border: none;
+    background-color: transparent;
+}
+
+.baslik-sag i{
+   font-size: 19px;
+   display: flex;
+}
+
+.baslik-sag .baslik-karti-link{
+    position: relative;
+  
+  }
+
+.baslik-sag .baslik-karti-link .header-cart-count{
+    width: 15px;
+    height: 15px;
+    background-color: #2e4d8a;
+    color: whitesmoke;
+    font-size: 11px;
+    border-radius: 100%;
+   position: absolute;
+   top: -10px;
+   right: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600px;
+ }
+ /*? menu dropdown start */
+header .menu-asagi-sarmal{
+  position: absolute;
+  top: 100%;
+  left: -35px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease;
+  z-index: 1;
+}
+
+header .menu-asagi-icerik{
+    width: 230px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 17px 0;
+  }
+
+  header .menu-asagi-icerik a{
+    display: flex;
+    padding: 3px 25px;
+    font-size: 14px;
+    transition: color .3s ease;
+  }
+
+  header .menu-asagi-icerik a:hover{
+ color: #2e4d8a;
+  }
+  .baslik-ortasi  .menu-listesi .menu-liste-oge:hover .menu-asagi-sarmal{
+    opacity: 1;
+    visibility: visible;
+ }
+ /* ! menu dropdown start */
+
+.menu-asagi-mega{
+   background-color: white; 
+   border: 2px solid whitesmoke;
+   padding: 17px;
+   display: flex;
+   column-gap: 55px;
+}
+.megamenu-sarmal .menu-asagi-sarmal{
+    left: 2px;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+}
+.megamenu-sarmal{
+    position: static !important;
+}
+.megamenu-sarmal .mega-link{
+    display: flex;
+    column-gap: 15px;
+    
+
+}
+.megamenu-sarmal .mega-urunu-baslik{
+    font-size: 14px;
+    font-weight: 400px;
+    margin-bottom: 12px;
+}
+.megamenu-sarmal .mega-listesi{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    }
+
+.megamenu-sarmal .mega-listesi a{
+font-size: 14px;
+}
+.megamenu-sarmal .mega-single-baslik{
+    font-size: 17px;
+    font-weight: 400px;
+    
+    }
+    .megamenu-sarmal .mega-single-altyazi{
+        font-size: 14px;
+        font-weight: 400px;
+        margin-bottom: 11px;
+        }
+        .megamenu-sarmal .mega-single-buton{
+            margin-top: 6px;
+            }
+            /* ! menu dropdown end */
+
+            /* ! header  bitis */
+/*! header responsive */
+@media(max-width: 650px){
+    .baslik-ortasi{
+    
+       position:fixed;
+       top: 0px;
+       left: -100%;
+       height: 100vh;
+       background-color: whitesmoke;
+       border-right: 2px solid white;
+       z-index: 2;
+       transition: 0.4s ease all;
+    }
+    .baslik-ortasi .bi-x-circle-fill{
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 21px;
+    }
+
+    .baslik-ortasi .menu-listesi{
+       
+       flex-direction: column;
+     
+       padding: 45px 70px;
+     }
+
+    .baslik-mobil{
+        
+        display: inline-block;
+    }
+  header .menu-asagi-sarmal{
+    display: none;
+
+  }
+  header .menu-listesi i{
+    display: none;
+  }
+  header .menu-liste-oge a{
+    font-size: 15px !important;
+  }
+}

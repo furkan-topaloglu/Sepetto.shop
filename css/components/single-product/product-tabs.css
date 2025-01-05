@@ -1,0 +1,40 @@
+.tek-tabs{
+    margin-bottom: 29px;
+}
+.tek-tabs h3{
+  font-size: 15px;
+  font-weight: 500;
+  margin: 14px 0;
+}
+.tek-tabs .tab-list{
+   display: flex;
+   align-items: center;
+   column-gap: 19px;
+   border-bottom: 1px solid whitesmoke;
+   padding-bottom: 19px;
+   margin-bottom: 19px;
+}
+.tek-tabs .tab-list a.active{
+font-weight: 500;
+ }
+ .tek-tabs .tab-panel-disc{
+   font-size: 13px;
+     }
+     .tek-tabs .content{
+      display: none;
+        }
+        .tek-tabs .content.active{
+          display: block;
+            }     
+.tek-tabs .tab-panel-bilgi table{
+     width: 100%;
+     border-collapse: collapse;
+   }
+   .tek-tabs .tab-panel-bilgi table th,
+   .tek-tabs .tab-panel-bilgi table td{
+   border: 1px solid black;
+   padding: 11px 7px;
+   font-size: 14px;
+   font-weight: 550;
+   text-align: start;
+  }        

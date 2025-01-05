@@ -1,0 +1,143 @@
+/*! subscrible start */
+.altbilgi .abone-satir{
+    background-color: black;
+    color: white;
+    padding: 75px 0;
+}
+.altbilgi .altbilgi-satir-sarmal{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 200px;
+}
+
+.altbilgi .abone-baslik,
+.altbilgi .iletisim-baslik{
+   font-size: 31px;
+   max-width: 500px;
+   font-weight: 500;
+   line-height: 1.2;
+}
+
+.altbilgi .abone-bilgi,
+ .altbilgi .iletisim-desc{
+            font-size: 15px;
+            opacity: 0.7;
+            margin-top: 4px;
+         }
+ .altbilgi  .altbilgi-iletisim-alt,
+     .altbilgi     .altbilgi-iletisim-alt{
+    margin-top: 39px;
+ }
+ .altbilgi  .altbilgi-abone-alt form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+ }
+ .altbilgi  .altbilgi-abone-alt form > input{
+   flex: 1;
+height: 48px;
+border: none;
+ }
+ .altbilgi  .altbilgi-abone-alt form > button{
+  height: 48px;
+  border-color: white;
+ background-color: black;
+ color: white;
+  }
+  .altbilgi .gizlilik-metni,
+  .altbilgi .gizlilik-metni a{
+    font-size: 11px;
+    color: white;
+    margin-top: 4px;
+    font-weight: 500;
+  }
+  .altbilgi .altbilgi-iletisim-alt .download-app{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  /*! subscrible end */
+  /*! widgets start */
+.widgets-row{
+    padding: 59px 0;
+    border-bottom: 1px solid #2e4d8a;
+}
+.widgets-row .altbilgi-widgets{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+.widgets-row .altbilgi-widgets > div{
+    flex: 1;
+}
+.widgets-row .altbilgi-widgets > .marka-info{
+    flex: 3;
+}
+.altbilgi-widgets .marka-info .altbilgi-desc{
+ width: 400px;
+ font-size: 15px;
+ margin: 14px 0;
+}
+.altbilgi-widgets .marka-info .altbilgi-iletisim{
+   
+    font-size: 17px;
+    
+   }
+   .altbilgi-widgets .widget-nav-menu h4{
+   font-weight: 600;   
+   font-size: 15px;
+   }
+   .altbilgi-widgets .widget-nav-menu ul{
+   margin-top: 21px;
+   font-size: 14px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 4px;
+    }
+  /*! widgets end */
+   /*! copyright start */
+.altbilgi-telif{
+    margin: 39px 0;
+    display: flex;
+    align-items: center;
+    
+}
+.altbilgi-telif .telif-alani{
+    font-size: 13px;
+    margin-right: 13px;
+}
+.altbilgi-telif .altbilgi-menu{
+    margin-left: auto;
+}
+.altbilgi-telif .altbilgi-menu-listesi{
+ 
+   align-items: center;
+   font-size: 13px;
+   column-gap: 10px;
+}
+      /*! copyright end */
+  /*! responsive   */
+  @media (max-width: 768px){
+    .altbilgi .altbilgi-satir-sarmal{
+        flex-direction: column;
+        row-gap: 19px;
+    }
+    .altbilgi  .marka-info{
+        margin-bottom: 19px;
+    }
+.altbilgi-widgets .marka-info .altbilgi-desc{
+    width: unset;
+}
+    .widgets-row .altbilgi-widgets > div{
+        flex: unset;
+    }
+    .altbilgi  .marka-info{
+        margin-bottom: 19px;
+    }
+    .altbilgi-telif{
+       flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+    }
+  }

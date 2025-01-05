@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Ekose Desenli Krem Takım",
+        "price": {
+            "oldPrice": 1.34999,
+            "newPrice": 949.99
+        },
+        "discount": 29,
+        "img": {
+            "singleImage": "images/products/product1/1.png",
+            "thumbs": [
+                "images/products/product1/1.png",
+                "images/products/product1/2.png",
+                "images/products/product1/3.png"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Kırmızı Oduncu Gömleği",
+        "price": {
+            "oldPrice": 499.99,
+            "newPrice": 149.99
+        },
+        "discount": 70,
+        "img": {
+            "singleImage": "images/products/product2/1.png",
+            "thumbs": [
+                "images/products/product2/1.png",
+                "images/products/product2/2.png",
+                "images/products/product2/3.png"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Zebra Desenli Elbise",
+        "price": {
+            "oldPrice": 1.19999,
+            "newPrice": 649.99
+        },
+        "discount": 45,
+        "img": {
+            "singleImage": "images/products/product3/1.png",
+            "thumbs": [
+                "images/products/product3/1.png",
+                "images/products/product3/2.png",
+                "images/products/product3/3.png"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Beyaz Abiye Elbise",
+        "price": {
+            "oldPrice": 749.99,
+            "newPrice": 249.99
+        },
+        "discount": 66,
+        "img": {
+            "singleImage": "images/products/product4/1.png",
+            "thumbs": [
+                "images/products/product4/1.png",
+                "images/products/product4/2.png",
+                "images/products/product4/3.png"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Okyanus Desenli Oduncu Gömleği",
+        "price": {
+            "oldPrice": 499.99,
+            "newPrice": 149.99
+        },
+        "discount": 70,
+        "img": {
+            "singleImage": "images/products/product5/1.png",
+            "thumbs": [
+                "images/products/product5/1.png",
+                "images/products/product5/2.png",
+                "images/products/product5/3.png"
+            ]
+        }
+    }
+]

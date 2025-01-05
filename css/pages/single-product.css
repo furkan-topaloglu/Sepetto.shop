@@ -1,0 +1,12 @@
+/*! topbar start */
+.tek-topbar{
+    margin-top: 29px;
+}
+.tek-icerik{
+    margin: 29px 0;
+}
+.tek-icerik .site-main{
+   display: flex;
+   justify-content: space-between;
+}
+/*! topbar end */

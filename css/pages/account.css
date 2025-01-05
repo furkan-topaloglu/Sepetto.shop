@@ -1,0 +1,59 @@
+.giris-sayfa{
+    margin: 59px 0;
+}
+.giris-sarmal{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+
+}
+.giris-sutun{
+    flex: 1;
+}
+.giris-sutun h2{
+    font-size: 19px;
+    font-weight: 500;
+}
+.giris-sutun form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    margin-top: 11px;
+}
+.giris-sutun form div label{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    row-gap: 5px;
+}
+.giris-sutun form .remember{
+    display: flex;
+    flex-direction: column;
+ align-items: flex-start;
+ font-size: 12px;
+}
+.giris-sutun form .required{
+color: red;
+font-weight: bold;
+}
+.giris-sutun form .remember label{
+    display: flex;
+   align-items: center;
+   column-gap: 4px;
+}
+.giris-sutun form .remember button{
+  background-color: black;
+  color: white;
+  border-color: black;
+  margin-top: 9px;
+}
+.giris-sutun form .form-link{
+   color: black;
+   font-size: 13px;
+    margin-top: 9px;
+  }
+  @media (max-width: 768px){
+    .giris-sarmal{
+        flex-direction: column;
+    }
+  }

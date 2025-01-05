@@ -1,0 +1,40 @@
+
+
+.blog-listesi .blog-resim{
+display: flex;
+}
+.blog-listesi .blog-resim img{
+    width: 100%;
+    }
+.blog-oge .blog-bilgi{
+    padding: 29px 11px 24px 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px -1px 61px -8px rgba(0,0,0,0.75);
+}
+.blog-oge .blog-bilgi-üst{
+    font-size: 13px;
+    color: khaki;
+    margin-bottom: 11px;
+    
+} 
+
+.blog-oge .blog-bilgi-orta a{
+    font-size: 19px;
+    margin-bottom: 19px;
+    font-weight: 510;
+    
+} 
+.blog-oge .blog-bilgi-alt a{
+    font-size: 13px;
+    border-bottom: 1px solid ;
+    padding-bottom: 3px;
+    margin-top: 11px;
+    display: inline-block;
+    transition: .3s ease color;
+} 
+.blog-oge .blog-bilgi-alt a:hover{
+   color:#2e4d8a ;
+    
+} 

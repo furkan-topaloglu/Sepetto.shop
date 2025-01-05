@@ -1,0 +1,53 @@
+.tek-urun .urun-galeri{
+width: 50%;
+padding-right: 14px;
+}
+.tek-urun .tek-resim-sarmal{
+   overflow: hidden;
+   display: flex;
+}
+.tek-urun .tek-resim-sarmal img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+transform-origin: center;
+}
+.tek-urun .tek-resim-sarmal img:hover{
+    cursor: zoom-in;
+    }
+    .tek-urun .galeri-thumb{
+       /* display: flex;
+        column-gap: 9px; */
+    }
+    .tek-urun .galeri-thumb li{
+        display: flex;
+        cursor: pointer;
+    }
+    .tek-urun .galeri-thumb li img{
+       border: 1px solid transparent;
+    }
+    .tek-urun .galeri-thumb li img.active{
+       border-color: black;
+     }
+    .tek-urun .galeri-thumb li img:hover{
+       border-color: black;
+    }
+    .tek-urun .urun-thumb{
+       position: relative;
+       margin-top: 5px;
+     }
+    .tek-urun .glide__arrow{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        font-size: 24px;
+    }
+    .tek-urun .glide__arrow--left{
+       
+       left: 0;
+    }
+    .tek-urun .glide__arrow--right{
+       
+       right: 0;
+    }

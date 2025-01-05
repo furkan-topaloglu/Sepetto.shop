@@ -1,0 +1,126 @@
+.kaydirma{
+    position: relative;
+}
+
+.kaydirma-oge{
+    position: relative;
+   height: calc(100vh - 218px);
+   display: flex;
+   align-items: center;
+   color: white
+  
+}
+
+.kaydirma-oge .kaydirma-fotograf img{
+  
+position: absolute ;
+top: 0;
+left: 0;
+height: 100%;
+object-fit: cover;
+object-position: 60%;
+z-index: -1;
+}
+.kaydirma-oge .kaydirma-baslik{
+    font-size: 19px;
+    font-weight: 500px;
+    
+}
+.kaydirma-oge .kaydirma-heading{
+    font-size: 65px;
+    font-weight: 400px;
+ 
+}
+.kaydirma-oge a{
+    position: relative;
+   z-index: 1;
+   
+ 
+}
+.kaydirma .kaydirma-buton{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.kaydirma .kaydirma-buton button{
+width: 55px;
+height: 55px;
+border-radius: 100%;
+border: 1px solid whitesmoke;
+background-color: wheat;
+opacity: 0.6;
+transition: .3s ease all;
+}
+.kaydirma .kaydirma-buton button:hover{
+   background-color:#2e4d8a;
+   opacity: 1;
+   color: white;
+   border-color: #2e4d8a;
+    }
+ .kaydirma-buton button i{
+  font-size: 35px;
+    }
+    .kaydirma .kaydirma-noktalar{
+        position: absolute;
+        bottom: 22px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 7px;
+    }
+    .kaydirma .kaydirma-noktalar .kaydirma-nokta{
+        border: none;
+        display: flex;
+        opacity: 0.3;
+        transition: .3s ease opacity;
+    }
+    .kaydirma .kaydirma-noktalar .kaydirma-nokta:hover{
+        opacity: 1;
+        
+    }
+    .kaydirma .kaydirma-noktalar .kaydirma-nokta span{
+       display: inline-block;
+        width: 12px;
+        height: 12px;
+        background-color: #2e4d8a;
+        border-radius: 100%;
+    }
+    .kaydirma .kaydirma-noktalar .kaydirma-nokta.active{
+       
+         opacity: 1;
+         
+     }
+
+    .fade{
+        animation-name: fade;
+        animation-duration: 1.5s;
+        
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0.5s;
+        }    
+        to {
+            opacity: 1;
+        }
+    }
+    @media (max-width: 767px){
+        .kaydirma-oge{
+            
+            height: calc(100vh - 155px);
+        }
+         .kaydirma-buton{
+            display: none !important;
+
+}
+       
+    }

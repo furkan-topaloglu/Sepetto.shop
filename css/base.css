@@ -1,0 +1,142 @@
+/* ! base start */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+ul,
+ol{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+margin: 0px;
+}
+
+.container{
+
+ max-width: 1200px;
+ width: 100%;  
+ margin: auto;
+}
+ .logo{
+    font-size: 23px;
+    font-weight: 501;
+    display: flex;
+}
+button{
+   
+   
+    border: none;
+    cursor: pointer;
+}
+button:disabled{
+        opacity: 0.4 !important;
+    cursor: no-drop;
+  
+}
+
+.btn{
+    display: inline-block;
+    padding: 2px 24px;
+    line-height: 43px;
+    font-weight: 400px;
+    border: 2px solid whitesmoke;
+   
+}
+.btn-sm{
+    line-height: 35px;
+}
+
+.btn-lg{
+
+    line-height: 48px;
+}
+
+.btn-primary{
+    background-color: #2e4d8a;
+    color: white;
+    border-color: #2e4d8a;
+    transition: .4s ease all;
+}
+
+.btn-primary:hover{
+    background-color:white;
+    color: #2e4d8a;
+
+}
+textarea{
+    overflow: auto;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea{
+   outline: none;
+   border: 2px solid gray !important;
+padding: 7px 7px 7px 15px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus{
+  border-color: gray !important;
+}
+input[type="number"]::-webkit-inner-spin-button{
+    opacity: 1;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+
+/* ! base end */
+
+/* ! responsive */
+@media (max-width: 1200px){
+    .container{
+        max-width: 995px;
+    }
+}
+@media (max-width: 995px){
+    .container{
+        max-width: 765px;
+    }
+}
+@media (max-width: 765px){
+    .container{
+        max-width: 575px;
+    }
+}
+@media (max-width: 575px){
+    .container{
+        max-width: 400px;
+    }
+}
+@media (max-width: 400px){
+    .container{
+        max-width: 340px;
+    }
+}

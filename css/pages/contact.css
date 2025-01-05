@@ -1,0 +1,82 @@
+.iletisim .iletisim-alt{
+    margin: 29px 0;
+}
+.iletisim-alt .iletisim-basliklar{
+   width: 75%;
+}
+.iletisim-alt .iletisim-basliklar h4{
+   color: red;
+   font-weight: 500;
+ }
+ .iletisim-alt .iletisim-basliklar h2{
+    font-size: 39px;
+    font-weight: 600;
+  }
+  .iletisim-alt .iletisim-basliklar p{
+   font-size: 13px;
+  }
+  .iletisim-alt .iletisim-elementler{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 49px;
+    gap: 99px;
+   }
+   .iletisim-alt .iletisim-form{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   }
+   .iletisim-alt .iletisim-form > div{
+    display: flex;
+   flex-direction: column;
+   flex-basis: calc(50% - 10px);
+   font-size: 15px;
+   row-gap: 4px;
+   }
+
+   .iletisim-alt .iletisim-form > div label span{
+    color: red;
+     }
+   .iletisim-alt .iletisim-form > div:nth-child(3),
+   .iletisim-alt .iletisim-form > div:nth-child(4){
+  flex-basis: 100%;
+   }
+   .iletisim-alt .iletisim-form .form-button{
+  background-color: black;
+  color: white;
+   }
+   .iletisim-elementler .iletisim-bilgi{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+   }
+    .iletisim-bilgi-oge{
+    font-size: 13px;
+    
+    }
+   .iletisim-bilgi-oge .iletisim-bilgi-metinler{
+        display: flex;
+        flex-direction: column;
+        
+        }
+    .iletisim-bilgi-oge .iletisim-adresi{
+   margin: 14px 0;
+   }
+   .iletisim-bilgi-oge .iletisim-gun{
+   margin-top: 10px;
+    }
+    /* responsive */
+    @media (max-width: 768px){
+        .iletisim .iletisim-basliklar{
+            width: 100%;
+        }
+        .iletisim-elementler{
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 576px){
+        .iletisim-form{
+            flex-direction: column;
+        }
+    }

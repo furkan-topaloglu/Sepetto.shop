@@ -1,0 +1,18 @@
+.tek-urun .breadcrumb ul{
+    display: flex;
+
+}
+.tek-urun .breadcrumb ul li{
+   font-size: 13px;
+  
+ 
+}
+.tek-urun .breadcrumb ul li:not(:last-child):after{
+  content: "/";
+ color: dimgrey;
+ margin: 0 5px;
+ }
+ .tek-urun .breadcrumb ul li a:hover{
+    color: black;
+    text-decoration: underline;
+   }

@@ -1,0 +1,127 @@
+.bolum-basligi{
+    text-align: center;
+    margin-bottom: 34px;
+}
+.bolum-basligi h2{
+    font-size: 30px;
+    font-weight: 550px;
+    line-height: 0.8;
+    margin-bottom: 4px;
+}
+/* ! categories start*/
+.kategori{
+    margin: 35px 0px;
+}
+.kategori .kategori-listesi{
+    display: flex;
+    gap: 27px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+/* ! categories end*/
+/*! products start */
+.urunler{
+    margin-bottom: 35px;
+}
+.urunler .urun-listesi{
+/*display: flex;
+
+gap: 15px;
+flex-wrap:wrap ;*/
+}
+/*! products end */
+/*! campaign start  */
+.kampanya .kampanya-sarmal{
+    display: flex;
+    gap: 28px;
+    margin: 32px 0;
+    flex-wrap: wrap;
+}
+
+/*! campaign end  */
+
+/*! blogs start  */
+.blog{
+    margin-bottom: 33px;
+}
+.blog .blog-listesi{
+   display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 29px;
+}
+/*! blogs end  */
+/*! brand start  */
+.marka {
+    margin: 39px 0;
+}
+
+.marka-listesi {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    border: 1px solid bisque;
+    padding: 29px 0;
+}
+
+.marka .marka-oge {
+    flex: 1 1 calc(20% - 20px); 
+    max-width: 150px; 
+    text-align: center; 
+    opacity: 0.6;
+    transition: 0.3s ease opacity;
+}
+
+.marka .marka-oge img {
+    width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+.marka .marka-oge:hover {
+    opacity: 1;
+}
+/*! brands end  */
+/*! policy start  */
+.politika{
+    border: 1px solid white;
+    margin-top: 39px;
+}
+.politika .politika-listesi{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 24px 0;
+}
+.politika .politika-listesi .politika-oge{
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+
+
+.politika .politika-oge i{
+    font-size: 49px;
+    display: flex;
+}
+.politika .politika-oge .politika-metin{
+    display: flex;
+    flex-direction: column;
+}
+.politika .politika-oge .politika-metin strong{
+    font-weight: 610;
+}
+.politika .politika-oge .politika-metin span{
+   font-size: 13px;
+}
+/*! policy end  */
+/*! responsive  */
+@media (max-width: 768px){
+    .blog .blog-listesi{
+      grid-template-columns: 1fr;  
+    }
+    .politika .politika-listesi{
+        flex-direction: column;
+        align-items: center;
+    }
+}

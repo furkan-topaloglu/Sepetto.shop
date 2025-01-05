@@ -1,0 +1,156 @@
+.urunler .urun-oge {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /*flex: 1;*/
+}
+
+.urunler .urun-oge .urun-resim {
+    width: 100%;
+    height: 100%;
+
+}
+
+.urunler .urun-oge img {
+    width: 100%;
+    transition: .4s ease-in-out all;
+}
+.urunler .urun-oge .img1:hover {
+    visibility: hidden;
+    opacity: 0;
+   
+}
+
+.urunler .urun-oge .urun-resim:hover .img2 {
+    visibility: visible;
+    opacity: 1;
+   
+}
+.urunler .urun-oge .img2 {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.urunler .urun-oge .urun-basligi {
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 570px;
+    margin-top: 14px;
+}
+
+.urunler .urun-oge .urun-yildizi {
+    display: flex;
+    justify-content: center;
+    margin: 7px 0px;
+    column-gap: 3px;
+}
+
+.urunler .urun-oge .urun-yildizi i {
+    font-size: 13px;
+    color: #008080;
+}
+
+.urunler .urun-oge .urun-fiyat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+    padding-bottom: 14px;
+}
+
+.urunler .urun-oge .urun-fiyat strong {
+    color: crimson;
+    font-weight: 500px;
+
+}
+
+.urunler .urun-oge .urun-fiyat span {
+    color: darkslategrey;
+    font-size: 13px;
+    text-decoration: line-through;
+
+}
+
+.urun-oge .urun-indirimi {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 11px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+border-radius: 100%;
+
+}
+.urun-oge .urun-link{
+display: inline-flex;
+flex-direction: column;
+row-gap: 7px;
+position: absolute;
+top: 17px;
+left: 0px;
+opacity: 0;
+visibility: hidden;
+transition: .4s ease-out all;
+overflow: hidden;
+}
+.urunler .urun-oge:hover .urun-link{
+transform: translate(14px);
+opacity: 1;
+visibility: visible;
+}
+.urun-oge .urun-link button,
+.urun-oge .urun-link a{
+    background-color: black;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 3px;
+    transition: all ease 0.4s;
+}
+
+.urun-oge .urun-link button:hover,
+.urun-oge .urun-link a:hover{
+   opacity: 0.5;
+}
+
+.urun-oge .urun-link i{
+   color: white;
+   font-size: 13px;
+   display: flex;
+   pointer-events: none;
+}
+.urun-ambalaji{
+position: relative;
+}
+.urun-ambalaji .glide__arrow{
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    }
+    .urun-ambalaji .glide__arrow--left{
+      left: -40px;
+        } 
+        .urun-ambalaji .glide__arrow--right{
+            right: -40px;
+              }          
+.urun-ambalaji .glide__arrow i{
+   font-size: 30px;
+}
+@media (max-width:578px){
+    .urun-ambalaji .glide__arrow--left{
+        left: 0px;
+          } 
+  .urun-ambalaji .glide__arrow--right{
+    right: 0px;
+      }      
+}

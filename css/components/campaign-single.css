@@ -1,0 +1,44 @@
+.kampanya-tekli{
+    background-image: url(../../images/single-campaign.png);
+    padding: 141px 14px;
+    background-attachment: fixed;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 29px;
+   
+}
+.kampanya-tekli .kampanya-sarmal{
+ 
+    color: wheat;
+    display: flex ;
+    flex-direction:column ;
+    align-items: center;
+    
+}
+.kampanya-tekli .kampanya-sarmal h2{
+ font-size: 27px;
+
+   
+    
+}
+.kampanya-tekli .kampanya-sarmal strong{
+    font-size: 57px;
+     font-weight: 600;
+     margin: 19px 0; 
+   }
+   .kampanya-tekli .kampanya-sarmal span{
+  display: inline-block;
+  width: 49px;
+  height: 5px;
+  background-color: white;
+   }
+   .kampanya-tekli .kampanya-sarmal > a{
+  background-color: white;
+  margin-top: 59px;
+     }
+     .kampanya-tekli .kampanya-sarmal > a:hover{
+        background-color: burlywood;
+       border-color:white;
+       color: white;
+           }
